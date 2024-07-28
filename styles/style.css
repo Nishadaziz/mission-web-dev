@@ -1,0 +1,190 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* shared styles*/
+.text-center {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 50px;
+}
+
+.section-sub-title {
+    margin-left: 247px;
+    margin-right: 247px;
+    color: rgba(13, 19, 33, 1);
+}
+
+/* navigation styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+.name-navigation {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.Resume-download-btn {
+    background-color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+/* Header */
+.hero-banner {
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: none;
+    display: block;
+    padding-left: 219px;
+    padding-right: 223px;
+
+}
+
+.banner-image {
+    margin-top: 26px;
+}
+
+.banner-headline {
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 32px;
+    color: #0D1321;
+}
+
+.contact-me-btn {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #0D1321;
+    color: white;
+    padding: 21px 24px;
+    border-radius: 8px;
+    margin-bottom: 57px;
+}
+
+.banner-text {
+    color: #0D1321;
+    font-weight: 400;
+    margin-bottom: 32px;
+    font-size: 16px;
+}
+
+/* why web development section */
+.why-section {
+    margin-left: 148px;
+    margin-right: 152px;
+    background-color: #E7ECFF;
+
+}
+
+.why-web-section {
+    padding: 50px;
+
+}
+
+.why-web-item {
+    background-color: white;
+    padding-top: 10px;
+    display: flex;
+
+    margin: 32px 97px;
+
+}
+
+.why-web-text {
+    max-width: 70%;
+    padding-left: 48px;
+}
+
+.why-headline {
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.why-para {
+    color: rgba(13, 19, 33, 1);
+}
+
+.why-web-image {
+    background-color: white;
+    padding: 48px;
+}
+
+.btn-primary {
+    margin-top: 32px;
+    border-color: rgba(13, 19, 33, 1);
+    background-color: white;
+    font-size: 20px;
+    padding: 12px 20px;
+    color: rgba(13, 19, 33, 1);
+}
+
+/* my inspiration section  */
+.inspiration-section {
+    margin-left: 148px;
+    margin-right: 152px;
+}
+
+.video-container {
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 32px;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.youtube-video {
+    border-radius: 25px;
+}
+
+/* My next Target section*/
+.target-section {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.card-item {
+    display: flex;
+    gap: 24px;
+   
+}
+
+.card-1{
+    background-color:rgba(255, 76, 30, 0.05) ;
+    padding: 40px;
+    border-radius: 16px;
+}
+.card-2{
+background-color:rgba(0, 76, 232, 0.05) ;
+padding: 40px;
+border-radius: 16px;
+}
+.card-3{
+background-color:rgba(255, 223, 0, 0.05) ;
+padding: 40px;
+border-radius: 16px;
+}
+.card-heading{
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-item a {
+    color: black;
+    
+}
