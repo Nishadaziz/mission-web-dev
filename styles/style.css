@@ -10,18 +10,21 @@
 }
 
 .section-title {
+    margin-top: ;
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
     text-align: center;
     margin-top: 80px;
-    padding-top: 50px;
+
 }
 
 .section-sub-title {
-    margin-left: 247px;
-    margin-right: 247px;
+    margin-left: 144px;
+    margin-right: 144px;
     color: rgba(13, 19, 33, 1);
+    padding-top: 24px;
+    margin-bottom: 48px;
 }
 
 /* navigation styles */
@@ -55,7 +58,6 @@ nav ul li {
     display: block;
     padding-left: 219px;
     padding-right: 223px;
-
 }
 
 .banner-image {
@@ -68,6 +70,7 @@ nav ul li {
     margin-top: 32px;
     color: #0D1321;
 }
+
 
 .contact-me-btn {
     font-size: 20px;
@@ -88,17 +91,18 @@ nav ul li {
 
 /* why web development section */
 .why-section {
+   
     margin-left: 148px;
     margin-right: 152px;
-    background-color: #E7ECFF;
+    background-color: rgba(13, 19, 33, 0.02);
 
 }
 
 .why-web-section {
+    
     padding: 50px;
 
 }
-
 .why-web-item {
     background-color: white;
     padding-top: 10px;
@@ -159,32 +163,121 @@ nav ul li {
     margin-left: 150px;
     margin-right: 150px;
 }
+
 .card-item {
     display: flex;
     gap: 24px;
-   
+
 }
 
-.card-1{
-    background-color:rgba(255, 76, 30, 0.05) ;
+.card-1 {
+    background-color: rgba(255, 76, 30, 0.05);
     padding: 40px;
     border-radius: 16px;
 }
-.card-2{
-background-color:rgba(0, 76, 232, 0.05) ;
-padding: 40px;
-border-radius: 16px;
+
+.card-2 {
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    border-radius: 16px;
 }
-.card-3{
-background-color:rgba(255, 223, 0, 0.05) ;
-padding: 40px;
-border-radius: 16px;
+
+.card-3 {
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    border-radius: 16px;
 }
-.card-heading{
+
+.card-heading {
     font-size: 24px;
     font-weight: 800;
 }
+
 .card-item a {
     color: black;
-    
+}
+
+.next-card-item a {
+    color: black;
+}
+
+.next-card-item {
+    display: flex;
+    margin-top: 24px;
+}
+
+.next-card-1 {
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.next-card-2 {
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.next-card-3 {
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.next-target-image {
+    padding-right: 24px;
+}
+
+.support {
+    background: url(../assets/handshake.jpg) no-repeat center center/cover;
+    margin-left: 148px;
+    margin-right: 152px;
+    margin-top: 59px;
+    border-radius: 16px;
+}
+
+.support-form {
+    color: white;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.support-heading {
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+}
+
+.support-form {
+    align-items: center;
+    gap: 10px;
+}
+
+.support-input {
+    width: 546px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    flex: 1;
+    border: none;
+}
+
+.support-button {
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* footer */
+.footer {
+    margin-top: 80px;
+    padding: 32px 150px;
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
 }
